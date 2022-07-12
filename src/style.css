@@ -70,7 +70,7 @@ input.bill {
   color: var(--veryDark);
   font-size: 2.4rem;
   font-weight: 700;
-  background: url("images\\icon-dollar.svg");
+  background: url("..\\images\\icon-dollar.svg");
   background-size: 1rem;
   background-position: 1rem .8rem;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ input.number-of-people {
   color: var(--veryDark);
   font-size: 2.4rem;
   font-weight: 700;
-  background: url("images\\icon-person.svg");
+  background: url("..\\images\\icon-person.svg");
   background-size: 1rem;
   background-position: 1rem 1rem;
   background-repeat: no-repeat;
