@@ -34,15 +34,17 @@
   </head>
   <body>
     <div class="container">
+
+      <!-- First Section -->
       <div class="first-section">
         <div class="bill">
 
-          <label for="bill">Bill</label>
-          <input type="text" name="name">
+          <label >Bill</label>
+          <input type="text" class="bill" >
         </div>
 
         <div class="tip-selection">
-          <label for="tip">Selection Tip %</label>
+          <label >Selection Tip %</label>
           <div class="tip-value">
             <button class="tip-btn">5%</button>
             <button class="tip-btn">10%</button>
@@ -54,21 +56,44 @@
           
         </div>
         <div class="number-of-people">
-          <label for="people"></label>
-          Number of People
+          <label >Number of People</label>
+          <input type="text" class="number-of-people">
         </div>
       </div>
-      <div class="second-section">
-        <div class="tip-total">
 
-          Tip Amount / person Total / person 
-        </div>
-        <button class="reset-btn">
-          Reset
-        </button>
+      <!-- Second Section -->
+      <div class="second-section">
+        <div class="tip">
+          <div class="tip--1">
+            <div class="tip-amount">
+              <div class="tip-amount--1">
+                <p>Tip Amount <br><span class="person">/ person</span> </p>
+    
+              </div>
+            <div class="tip-amount-value">
+              <h1 class="amount-value">$0.00</h1>
+            </div>
+          </div>
+            <div class="tip-total">
+              <div class="tip-total--1">
+
+                <p>Total <br><span class="person">/ person</span> </p>
+              </div>
+              
+              <div class="tip-total-value">
+                <h1 class="amount-value">$0.00</h1>
+              </div>
+            </div>
+          </div>
+          <div class="reset">
+            <button class="reset-btn">
+              RESET
+            </button>
+          </div>
       </div>
     </div>
 
+    <!-- FOOTER -->
     <div class="attribution footer">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
