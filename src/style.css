@@ -62,7 +62,7 @@ body {
   flex-direction: column;
   margin-bottom: 1.5rem;
 }
-input.bill {
+input.bill--1 {
   font-family: "Space Mono", monospace;
   line-height: 3rem;
   text-align: end;
@@ -122,7 +122,7 @@ input.bill {
   display: flex;
   flex-direction: column;
 }
-input.number-of-people {
+input.number-of-people--1 {
   font-family: "Space Mono", monospace;
   line-height: 3rem;
   text-align: end;
@@ -135,6 +135,11 @@ input.number-of-people {
   background-position: 1rem 1rem;
   background-repeat: no-repeat;
   background-color: var(--veryLightGray);
+}
+
+.selected {
+  color: var(--veryDark);
+  background-color: var(--strong);
 }
 
 /* Second Section */

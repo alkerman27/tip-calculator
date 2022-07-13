@@ -40,24 +40,24 @@
         <div class="bill">
 
           <label >Bill</label>
-          <input type="text" class="bill" >
+          <input type="number" class="bill--1" value="0" step=".01" required>
         </div>
 
         <div class="tip-selection">
           <label >Selection Tip %</label>
           <div class="tip-value">
-            <button class="tip-btn">5%</button>
-            <button class="tip-btn">10%</button>
-            <button class="tip-btn">15%</button>
-            <button class="tip-btn">25%</button>
-            <button class="tip-btn">50%</button>
+            <button class="tip-btn" value="5">5%</button>
+            <button class="tip-btn" value="10">10%</button>
+            <button class="tip-btn selected"  value="15">15%</button>
+            <button class="tip-btn" value="25">25%</button>
+            <button class="tip-btn" value="50">50%</button>
             <button class=" custom-btn">Custom </button>
           </div>
           
         </div>
         <div class="number-of-people">
           <label >Number of People</label>
-          <input type="text" class="number-of-people">
+          <input type="number" class="number-of-people--1" value="1" min="1" max="100" step="1" min required>
         </div>
       </div>
 
@@ -71,7 +71,7 @@
     
               </div>
             <div class="tip-amount-value">
-              <h1 class="amount-value">$0.00</h1>
+              <h1 class="amount-value total-tip">$0.00</h1>
             </div>
           </div>
             <div class="tip-total">
@@ -81,7 +81,7 @@
               </div>
               
               <div class="tip-total-value">
-                <h1 class="amount-value">$0.00</h1>
+                <h1 class="amount-value total-amount">$0.00</h1>
               </div>
             </div>
           </div>
@@ -100,5 +100,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
