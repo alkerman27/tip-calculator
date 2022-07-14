@@ -37,6 +37,9 @@ reset.addEventListener('click', function(event) {
   defaultTip.classList.add('selected')
   billInput.value = 0;
   numOfPeopleInput.value = 1;
+  customBtn.removeAttribute('hidden')
+  customInput.setAttribute('hidden', true)
+  customInput.value = '';
   totalTip.innerHTML = '$0.00'
   totalAmount.innerHTML = '$0.00'
 })
