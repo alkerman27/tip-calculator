@@ -81,6 +81,7 @@ input.bill--1 {
 .tip-value {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -116,6 +117,23 @@ input.bill--1 {
   background-color: var(--strong);
   cursor: pointer;
 }
+
+input.custom-input {
+  font-family: "Space Mono", monospace;
+  line-height: 3rem;
+  text-align: end;
+  width: 100%;
+  border: 0.1rem solid var(--white);
+  color: var(--veryDark);
+  font-size: 2.4rem;
+  font-weight: 700;
+  /* background: url("..\\images\\icon-dollar.svg");
+  background-size: 1rem;
+  background-position: 1rem .8rem;
+  background-repeat: no-repeat; */
+  background-color: var(--veryLightGray);
+}
+
 
 
 .number-of-people {

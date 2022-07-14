@@ -46,12 +46,15 @@
         <div class="tip-selection">
           <label >Selection Tip %</label>
           <div class="tip-value">
-            <button class="tip-btn" value="5">5%</button>
-            <button class="tip-btn" value="10">10%</button>
-            <button class="tip-btn selected"  value="15">15%</button>
-            <button class="tip-btn" value="25">25%</button>
-            <button class="tip-btn" value="50">50%</button>
-            <button class=" custom-btn">Custom </button>
+            <button class="tip-btn tipIn" value="5">5%</button>
+            <button class="tip-btn tipIn" value="10">10%</button>
+            <button class="tip-btn tipIn default selected"  value="15">15%</button>
+            <button class="tip-btn tipIn" value="25">25%</button>
+            <button class="tip-btn tipIn" value="50">50%</button>
+            <!-- <div class="custom"> -->
+                <input hidden="true" type="number" value="0" class="custom-input tipIn" step="1" required>
+                <button  class=" custom-btn">Custom </button>
+            <!-- </div> -->
           </div>
           
         </div>
